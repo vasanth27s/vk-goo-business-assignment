@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "./Header";
 import Dashboard from "./Dashboard";
-import List from "./List"; // Correct import path
+import List from "./List"; 
 import Footer from "./Footer";
 import "./App.css";
 
@@ -10,7 +10,7 @@ function App() {
     <div className="app-container">
       <Header />
       <Dashboard />
-      <List /> {/* Render the ReferralsList component */}
+      <List /> 
       <Footer />
     </div>
   );
